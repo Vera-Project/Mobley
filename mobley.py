@@ -8,6 +8,5 @@ import discord
 f = open("settings.json", "r")
 settings = json.load(f)
 token = settings['token']
-webhook_url = settings['webhook']
 status = settings['status']
 prefix = settings['prefix']
